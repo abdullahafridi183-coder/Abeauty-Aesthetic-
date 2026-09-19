@@ -1,1 +1,82 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fbf8f5;color:#272320;font-family:"DM Sans","Noto Sans JP",sans-serif;line-height:1.65}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(#9f8f83 .6px,transparent .6px);background-size:7px 7px;z-index:999}.loader{position:fixed;inset:0;background:#fbf8f5;display:grid;place-items:center;z-index:2000;transition:.5s}.loader.hide{opacity:0;visibility:hidden}.loader-ring{width:42px;height:42px;border:2px solid #ddd1c8;border-top-color:#9c6b55;border-radius:50%;animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}a{text-decoration:none;color:inherit}.site-header{position:fixed;top:0;left:0;right:0;height:82px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;z-index:1000;background:rgba(251,248,245,.76);backdrop-filter:blur(18px);border-bottom:1px solid rgba(39,35,32,.08)}.brand{display:flex;align-items:center;gap:11px}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#272320;color:#fff;font-family:Georgia,serif;font-size:22px}.brand strong{display:block;font-family:"Playfair Display",serif;font-size:17px;line-height:1}.brand small{display:block;font-size:8px;letter-spacing:2px;margin-top:4px;color:#89776b}.nav{display:flex;gap:30px;font-size:13px;color:#625950}.nav a{transition:.25s}.nav a:hover{color:#a46f58}.header-actions{display:flex;align-items:center;gap:8px}.lang-btn,.menu-btn{border:0;background:transparent;cursor:pointer;padding:7px;font-size:12px;color:#76685e}.lang-btn.active{color:#a46f58;font-weight:700}.header-book{margin-left:10px;padding:10px 17px;background:#272320;color:white;border-radius:30px;font-size:12px}.menu-btn{display:none;font-size:22px}.hero{min-height:100vh;position:relative;overflow:hidden;display:flex;align-items:center;padding:140px 8vw 80px;background:#1e1a18;color:white}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(25,20,18,.87),rgba(25,20,18,.36)),url("https://images.squarespace-cdn.com/content/v1/624b503c4e8eed088f164681/1649102924489-LGVJ6Z2JDV9HDVXUEV0Y/Stocksy_comp_2076183.jpg") center/cover no-repeat;transform:scale(1.03);animation:heroZoom 12s ease-out forwards}@keyframes heroZoom{to{transform:scale(1)}}.hero-content{position:relative;z-index:2;max-width:760px}.eyebrow,.section-tag,.mini-label{letter-spacing:2.4px;font-size:10px;font-weight:700;color:#d7b9a6}.hero h1{font-family:"Playfair Display",serif;font-weight:500;font-size:clamp(55px,8vw,105px);line-height:.98;margin:20px 0}.hero h1 em,.section h2 em,.feature-copy h2 em{font-weight:500;color:#e4bca7}.hero-copy{max-width:590px;color:#eee4de;font-size:16px}.hero-actions{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;padding:14px 23px;border-radius:999px;font-size:13px;font-weight:700;border:1px solid transparent;cursor:pointer}.btn-primary{background:#c1846c;color:#fff}.btn-primary:hover{background:#ab6d56}.btn-glass{border-color:rgba(255,255,255,.35);color:#fff;background:rgba(255,255,255,.06);backdrop-filter:blur(8px)}.hero-meta{display:flex;gap:25px;margin-top:38px;font-size:11px;color:#d4c9c2}.hero-card{position:absolute;right:7vw;bottom:10vh;z-index:2;width:260px;padding:26px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(16px)}.hero-card h3{font-family:"Playfair Display",serif;font-size:25px;line-height:1.15;margin:14px 0}.hero-card p{font-size:12px;color:#ddd}.hero-card a,.text-link{font-size:12px;font-weight:700;color:#e4bca7}.scroll-note{position:absolute;bottom:32px;left:8vw;font-size:9px;letter-spacing:3px;color:#bcaea5;z-index:2}.scroll-note span{font-size:15px;margin-left:8px}.section{padding:120px 8vw}.section-tag{color:#9b8274}.intro-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:10vw;margin-top:40px}.section h2{font-family:"Playfair Display",serif;font-weight:500;font-size:clamp(40px,5vw,72px);line-height:1.08;margin:0}.intro-grid p{font-size:16px;color:#5e554f;margin-top:0}.muted{font-size:13px!important;color:#8b7e75!important;margin-top:25px!important}.services{background:#f0e9e3}.section-head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:45px}.section-head>p{max-width:360px;color:#776b63;font-size:13px}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #d8ccc3;border-left:1px solid #d8ccc3}.service-card{min-height:250px;padding:30px;border-right:1px solid #d8ccc3;border-bottom:1px solid #d8ccc3;transition:.3s}.service-card:hover{background:#fbf8f5;transform:translateY(-4px)}.service-card span{font-size:10px;color:#a48778}.service-card h3{font-family:"Playfair Display",serif;font-size:28px;font-weight:500;margin:35px 0 10px}.service-card p{font-size:12px;color:#71655d}.feature-band{display:grid;grid-template-columns:1fr 1fr;min-height:620px;background:#29231f;color:#fff}.feature-image{background:url("https://images.squarespace-cdn.com/content/v1/624b503c4e8eed088f164681/1649102924485-7RAHSC57SLVRFNFS4YG0/image-asset.jpeg") center/cover;min-height:520px}.feature-copy{display:flex;flex-direction:column;justify-content:center;padding:10vw}.feature-copy h2{font-family:"Playfair Display",serif;font-size:clamp(44px,5vw,70px);line-height:1.02;font-weight:500}.feature-copy p{color:#c9beb7;max-width:480px;font-size:14px}.gallery-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:14px}.gallery-item{border:0;padding:0;overflow:hidden;background:#ddd;min-height:360px;cursor:pointer}.gallery-item.large{min-height:520px}.gallery-item img{width:100%;height:100%;object-fit:cover;display:block;transition:.6s}.gallery-item:hover img{transform:scale(1.05)}.booking{display:grid;grid-template-columns:.8fr 1.2fr;gap:10vw;background:#f0e9e3}.booking-copy h2{margin-top:25px}.booking-copy p{max-width:460px;color:#71655d}.contact-pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.contact-pills a{border:1px solid #cfc1b7;border-radius:99px;padding:9px 13px;font-size:11px}.booking-form{background:#fbf8f5;padding:38px;border:1px solid #ddd1c8}.field-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}label{display:block;font-size:10px;letter-spacing:.6px;color:#796c63;margin-bottom:17px}input,select,textarea{width:100%;margin-top:7px;border:1px solid #d9cdc4;background:#fff;border-radius:3px;padding:13px;font:inherit;font-size:13px;outline:none}input:focus,select:focus,textarea:focus{border-color:#b17b65}textarea{resize:vertical}.full{width:100%}.form-status{font-size:12px;margin:12px 0 0}.location-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:20px}.map-wrap{min-height:500px;background:#ddd}.map-wrap iframe{width:100%;height:100%;min-height:500px;border:0;filter:saturate(.7)}.location-card{padding:50px;background:#29231f;color:#fff;display:flex;flex-direction:column;justify-content:center}.location-card h3{font-family:"Playfair Display",serif;font-size:36px;font-weight:500;line-height:1.1}.location-card h3 span{color:#d9aa94}.location-card p{color:#c9beb7;font-size:13px}.location-card>a{color:#e0ad96;font-weight:700}.rating{margin-top:28px!important;color:#e0ad96!important}.rating span{color:#b8aaa1}.small{font-size:10px!important;color:#978980!important}.btn-outline{border-color:#cdbfb6}.modal{position:fixed;inset:0;background:rgba(20,16,14,.9);z-index:1500;display:none;place-items:center;padding:40px}.modal.open{display:grid}.modal img{max-width:90vw;max-height:85vh;object-fit:contain}.modal-close{position:absolute;right:30px;top:20px;background:none;color:white;border:0;font-size:38px;cursor:pointer}.floating-line{position:fixed;right:22px;bottom:22px;z-index:900;background:#06c755;color:white;padding:12px 15px;border-radius:99px;font-weight:700;font-size:11px;box-shadow:0 8px 30px rgba(0,0,0,.18)}.back-top{position:fixed;right:22px;bottom:78px;z-index:900;width:38px;height:38px;border-radius:50%;border:1px solid #cdbfb6;background:#fff;cursor:pointer;opacity:0;pointer-events:none;transition:.3s}.back-top.show{opacity:1;pointer-events:auto}footer{background:#1f1a17;color:#fff;padding:70px 8vw 25px}.footer-main{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px}.footer-main p,.footer-main a{display:block;color:#a99c93;font-size:12px;margin-top:10px}.footer-main h4{font-size:11px;letter-spacing:1.5px;color:#e5d9d2}.footer-bottom{border-top:1px solid #403833;margin-top:55px;padding-top:18px;display:flex;justify-content:space-between;color:#796e68;font-size:10px}.reveal{opacity:0;transform:translateY(25px);transition:opacity .8s ease,transform .8s ease}.reveal.visible{opacity:1;transform:none}@media(max-width:900px){.nav{position:absolute;top:82px;left:0;right:0;background:#fbf8f5;display:none;flex-direction:column;padding:20px 8vw;border-bottom:1px solid #ddd1c8}.nav.open{display:flex}.menu-btn{display:block}.header-book{display:none}.hero-card{display:none}.hero{padding-left:7vw}.service-grid{grid-template-columns:1fr 1fr}.intro-grid,.booking,.location-grid{grid-template-columns:1fr}.feature-band{grid-template-columns:1fr}.feature-image{min-height:400px}.gallery-grid{grid-template-columns:1fr 1fr}.gallery-item.large{grid-column:1/-1;min-height:420px}.gallery-item{min-height:300px}}@media(max-width:560px){.site-header{padding:0 5vw}.brand strong{font-size:15px}.lang-btn{padding:5px}.hero{min-height:800px;padding-top:150px}.hero h1{font-size:54px}.hero-copy{font-size:14px}.hero-meta{flex-direction:column;gap:8px}.section{padding:85px 6vw}.service-grid{grid-template-columns:1fr}.section-head{display:block}.section-head>p{margin-top:20px}.field-row{grid-template-columns:1fr}.booking-form{padding:22px}.gallery-grid{grid-template-columns:1fr}.gallery-item.large{grid-column:auto;min-height:380px}.location-card{padding:35px}.footer-main{grid-template-columns:1fr 1fr}.footer-main>div:first-child{grid-column:1/-1}.footer-bottom{display:block}.footer-bottom span{display:block;margin-bottom:7px}}
+/* ==============================
+   FLOATING WHATSAPP BUTTON
+   ============================== */
+
+.floating-whatsapp {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 13px 18px;
+  border-radius: 50px;
+
+  background: #25D366;
+  color: #ffffff;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.floating-whatsapp:hover {
+  color: #ffffff;
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 15px 35px rgba(37, 211, 102, 0.35);
+}
+
+.whatsapp-icon {
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+
+  font-size: 19px;
+  line-height: 1;
+}
+
+.whatsapp-text {
+  white-space: nowrap;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .floating-whatsapp {
+    right: 16px;
+    bottom: 16px;
+
+    width: 54px;
+    height: 54px;
+
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .whatsapp-text {
+    display: none;
+  }
+
+  .whatsapp-icon {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    font-size: 23px;
+  }
+}
